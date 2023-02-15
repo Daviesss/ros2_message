@@ -43,3 +43,8 @@ We source our workspace,so that we can use the newly created message.Type the fo
 ```
 ros2 topic pub /display message_creation/Creation "{day: '12', month: 'February', year: '2023'}"
 ```
+We can check the topic ssigned to the message by opening a new terminal:
+```
+ros2 topic list
+```
+We will see the topic called /display publsihed to the terminal.
