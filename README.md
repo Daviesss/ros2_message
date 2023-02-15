@@ -25,3 +25,8 @@ endif()
 ```
 The function above includes all the messages of package to be compiled,this also should be added into the "CMakeLists.txt" file.
 We also need to do some modification in the package.xml file.Add the following below to your package.xml file.
+```
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <member_of_group>rosidl_interface_packages</member_of_group>
+```
