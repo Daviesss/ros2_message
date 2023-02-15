@@ -35,3 +35,7 @@ The after we are done with all the above modification,we will build our workspac
 colocon build or 
 colcon build --symlink-install
 ```
+Then we will the source the workspace:
+```
+source install/setup.bash
+```
