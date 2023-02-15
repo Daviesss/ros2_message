@@ -39,3 +39,7 @@ Then we will the source the workspace:
 ```
 source install/setup.bash
 ```
+We source our workspace,so that we can use the newly created message.Type the following command to publish via the terminal.
+```
+ros2 topic pub /display message_creation/Creation "{day: '12', month: 'February', year: '2023'}"
+```
