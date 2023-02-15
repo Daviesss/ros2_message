@@ -30,3 +30,8 @@ We also need to do some modification in the package.xml file.Add the following b
   <exec_depend>rosidl_default_runtime</exec_depend>
   <member_of_group>rosidl_interface_packages</member_of_group>
 ```
+The after we are done with all the above modification,we will build our workspace with the:
+```
+colocon build or 
+colcon build --symlink-install
+```
