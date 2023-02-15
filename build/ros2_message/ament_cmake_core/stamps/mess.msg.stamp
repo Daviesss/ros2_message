@@ -1,0 +1,3 @@
+int32 day      #integer that contains a day.
+string month   #string that contains a month.
+int32 year     #integer that contains a year.

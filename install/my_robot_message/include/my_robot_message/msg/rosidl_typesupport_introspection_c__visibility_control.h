@@ -1,0 +1,1 @@
+/home/magnum/ros2_msg/build/my_robot_message/rosidl_typesupport_introspection_c/my_robot_message/msg/rosidl_typesupport_introspection_c__visibility_control.h

@@ -1,0 +1,14 @@
+source;share/message_creation/hook/cmake_prefix_path.ps1
+source;share/message_creation/hook/cmake_prefix_path.dsv
+source;share/message_creation/hook/cmake_prefix_path.sh
+source;share/message_creation/hook/ld_library_path_lib.ps1
+source;share/message_creation/hook/ld_library_path_lib.dsv
+source;share/message_creation/hook/ld_library_path_lib.sh
+source;share/message_creation/hook/pythonpath.ps1
+source;share/message_creation/hook/pythonpath.dsv
+source;share/message_creation/hook/pythonpath.sh
+source;share/message_creation/local_setup.bash
+source;share/message_creation/local_setup.dsv
+source;share/message_creation/local_setup.ps1
+source;share/message_creation/local_setup.sh
+source;share/message_creation/local_setup.zsh

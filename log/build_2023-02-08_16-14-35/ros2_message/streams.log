@@ -1,0 +1,63 @@
+[0.011s] Invoking command in '/home/magnum/ros2_msg/build/ros2_message': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/magnum/ros2_msg/src/ros2_message -DCMAKE_INSTALL_PREFIX=/home/magnum/ros2_msg/install/ros2_message
+[0.130s] -- The C compiler identification is GNU 9.4.0
+[0.209s] -- The CXX compiler identification is GNU 9.4.0
+[0.217s] -- Check for working C compiler: /usr/bin/cc
+[0.280s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.281s] -- Detecting C compiler ABI info
+[0.355s] -- Detecting C compiler ABI info - done
+[0.365s] -- Detecting C compile features
+[0.366s] -- Detecting C compile features - done
+[0.369s] -- Check for working CXX compiler: /usr/bin/c++
+[0.443s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.444s] -- Detecting CXX compiler ABI info
+[0.508s] -- Detecting CXX compiler ABI info - done
+[0.518s] -- Detecting CXX compile features
+[0.518s] -- Detecting CXX compile features - done
+[0.526s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.554s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.554s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.737s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.789s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.798s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.906s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.936s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.008s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.064s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.066s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.068s] -- Looking for pthread.h
+[1.138s] -- Looking for pthread.h - found
+[1.138s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.194s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.194s] -- Looking for pthread_create in pthreads
+[1.245s] -- Looking for pthread_create in pthreads - not found
+[1.245s] -- Looking for pthread_create in pthread
+[1.309s] -- Looking for pthread_create in pthread - found
+[1.310s] -- Found Threads: TRUE  
+[1.441s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.503s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.504s] -- Added test 'lint_cmake' to check CMake code style
+[1.505s] -- Added test 'xmllint' to check XML markup files
+[1.508s] -- Configuring done
+[1.509s] -- Generating done
+[1.510s] -- Build files have been written to: /home/magnum/ros2_msg/build/ros2_message
+[1.515s] Invoked command in '/home/magnum/ros2_msg/build/ros2_message' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/magnum/ros2_msg/src/ros2_message -DCMAKE_INSTALL_PREFIX=/home/magnum/ros2_msg/install/ros2_message
+[1.518s] Invoking command in '/home/magnum/ros2_msg/build/ros2_message': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/magnum/ros2_msg/build/ros2_message -- -j8 -l8
+[1.559s] Invoked command in '/home/magnum/ros2_msg/build/ros2_message' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/magnum/ros2_msg/build/ros2_message -- -j8 -l8
+[1.591s] Invoking command in '/home/magnum/ros2_msg/build/ros2_message': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/magnum/ros2_msg/build/ros2_message
+[1.601s] -- Install configuration: ""
+[1.601s] -- Installing: /home/magnum/ros2_msg/install/ros2_message/share/ament_index/resource_index/package_run_dependencies/ros2_message
+[1.602s] -- Installing: /home/magnum/ros2_msg/install/ros2_message/share/ament_index/resource_index/parent_prefix_path/ros2_message
+[1.602s] -- Installing: /home/magnum/ros2_msg/install/ros2_message/share/ros2_message/environment/ament_prefix_path.sh
+[1.602s] -- Installing: /home/magnum/ros2_msg/install/ros2_message/share/ros2_message/environment/ament_prefix_path.dsv
+[1.602s] -- Installing: /home/magnum/ros2_msg/install/ros2_message/share/ros2_message/environment/path.sh
+[1.602s] -- Installing: /home/magnum/ros2_msg/install/ros2_message/share/ros2_message/environment/path.dsv
+[1.602s] -- Installing: /home/magnum/ros2_msg/install/ros2_message/share/ros2_message/local_setup.bash
+[1.602s] -- Installing: /home/magnum/ros2_msg/install/ros2_message/share/ros2_message/local_setup.sh
+[1.602s] -- Installing: /home/magnum/ros2_msg/install/ros2_message/share/ros2_message/local_setup.zsh
+[1.602s] -- Installing: /home/magnum/ros2_msg/install/ros2_message/share/ros2_message/local_setup.dsv
+[1.602s] -- Installing: /home/magnum/ros2_msg/install/ros2_message/share/ros2_message/package.dsv
+[1.602s] -- Installing: /home/magnum/ros2_msg/install/ros2_message/share/ament_index/resource_index/packages/ros2_message
+[1.602s] -- Installing: /home/magnum/ros2_msg/install/ros2_message/share/ros2_message/cmake/ros2_messageConfig.cmake
+[1.602s] -- Installing: /home/magnum/ros2_msg/install/ros2_message/share/ros2_message/cmake/ros2_messageConfig-version.cmake
+[1.603s] -- Installing: /home/magnum/ros2_msg/install/ros2_message/share/ros2_message/package.xml
+[1.604s] Invoked command in '/home/magnum/ros2_msg/build/ros2_message' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/magnum/ros2_msg/build/ros2_message

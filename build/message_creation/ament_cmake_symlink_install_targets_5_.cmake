@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/magnum/ros2_msg/build/message_creation/rosidl_generator_py/message_creation/libmessage_creation__python.so" "TARGETS" "message_creation__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_message/msg/MESS.msg
+// generated code does not contain a copyright notice
+
+
+module ros2_message {
+  module msg {
+    struct MESS {
+      @verbatim (language="comment", text=
+        "integer that contains a day.")
+      int32 day;
+
+      @verbatim (language="comment", text=
+        "string that contains a month.")
+      string month;
+
+      @verbatim (language="comment", text=
+        "integer that contains a year.")
+      int32 year;
+    };
+  };
+};

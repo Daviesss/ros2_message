@@ -1,0 +1,54 @@
+[0.016s] Invoking command in '/home/magnum/ros2_msg/build/ros2_message': /usr/bin/cmake /home/magnum/ros2_msg/src/ros2_message -DCMAKE_INSTALL_PREFIX=/home/magnum/ros2_msg/install/ros2_message
+[0.029s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.048s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.197s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.202s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.230s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.233s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.329s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.366s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.366s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.469s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.476s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.514s] Error parsing '/home/magnum/ros2_msg/src/ros2_message/package.xml':
+[0.581s] Traceback (most recent call last):
+[0.581s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[0.581s]     root = dom.parseString(data)
+[0.582s]   File "/usr/lib/python3.8/xml/dom/minidom.py", line 1969, in parseString
+[0.582s]     return expatbuilder.parseString(string)
+[0.582s]   File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 925, in parseString
+[0.582s]     return builder.parseString(string)
+[0.582s]   File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 223, in parseString
+[0.582s]     parser.Parse(string, True)
+[0.582s] xml.parsers.expat.ExpatError: mismatched tag: line 29, column 2
+[0.582s] 
+[0.582s] During handling of the above exception, another exception occurred:
+[0.582s] 
+[0.582s] Traceback (most recent call last):
+[0.582s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+[0.582s]     main()
+[0.582s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+[0.583s]     raise e
+[0.583s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main
+[0.583s]     package = parse_package_string(
+[0.583s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[0.583s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[0.583s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/magnum/ros2_msg/src/ros2_message/package.xml':
+[0.583s] The manifest contains invalid XML:
+[0.583s] mismatched tag: line 29, column 2
+[0.595s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[0.595s]   execute_process(/usr/bin/python3
+[0.595s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.595s]   /home/magnum/ros2_msg/src/ros2_message/package.xml
+[0.595s]   /home/magnum/ros2_msg/build/ros2_message/ament_cmake_core/package.cmake)
+[0.595s]   returned error code 1
+[0.595s] Call Stack (most recent call first):
+[0.595s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.595s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.595s]   CMakeLists.txt:34 (ament_lint_auto_find_test_dependencies)
+[0.595s] 
+[0.595s] 
+[0.596s] -- Configuring incomplete, errors occurred!
+[0.596s] See also "/home/magnum/ros2_msg/build/ros2_message/CMakeFiles/CMakeOutput.log".
+[0.596s] See also "/home/magnum/ros2_msg/build/ros2_message/CMakeFiles/CMakeError.log".
+[0.602s] Invoked command in '/home/magnum/ros2_msg/build/ros2_message' returned '1': /usr/bin/cmake /home/magnum/ros2_msg/src/ros2_message -DCMAKE_INSTALL_PREFIX=/home/magnum/ros2_msg/install/ros2_message

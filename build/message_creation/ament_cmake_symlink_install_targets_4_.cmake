@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/magnum/ros2_msg/build/message_creation/rosidl_generator_py/message_creation/message_creation_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" "TARGETS" "message_creation__rosidl_typesupport_c__pyext" "DESTINATION" "lib/python3.8/site-packages/message_creation")

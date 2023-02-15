@@ -1,0 +1,226 @@
+[0.000000] (-) TimerEvent: {}
+[0.001147] (my_robot_message) JobQueued: {'identifier': 'my_robot_message', 'dependencies': OrderedDict()}
+[0.001185] (my_robot_message) JobStarted: {'identifier': 'my_robot_message'}
+[0.009540] (my_robot_message) JobProgress: {'identifier': 'my_robot_message', 'progress': 'cmake'}
+[0.010540] (my_robot_message) JobProgress: {'identifier': 'my_robot_message', 'progress': 'build'}
+[0.010597] (my_robot_message) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/magnum/ros2_msg/build/my_robot_message', '--', '-j8', '-l8'], 'cwd': '/home/magnum/ros2_msg/build/my_robot_message', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'magnum'), ('SSH_AGENT_PID', '2534'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/magnum/ros2_msg/install/my_robot_message/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/magnum'), ('OLDPWD', '/home/magnum/ros2_msg/src'), ('DESKTOP_SESSION', 'ubuntu'), ('QT_STYLE_OVERRIDE', 'kvantum'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_IP', '192.168.1.84'), ('MANAGERPID', '2346'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/magnum/ros2_msg/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'magnum'), ('JOURNAL_STREAM', '8:58830'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'magnum'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/magnum/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/robostek:@/tmp/.ICE-unix/2572,unix/robostek:/tmp/.ICE-unix/2572'), ('INVOCATION_ID', '1f32834dccfb4a88ab8bd2b72a053f8d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5ff014c8_9bfd_490e_9106_e9ead06e6873'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.303'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/magnum/ros2_msg/install/my_robot_message:/home/magnum/ros2_msg/install/ros2_message:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://192.168.1.122:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/magnum/ros2_msg/build/my_robot_message'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages:/opt/ros/foxy/lib/python/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/magnum/ros2_msg/install/my_robot_message:/home/magnum/ros2_msg/install/ros2_message:/opt/ros/foxy')]), 'shell': False}
+[0.032881] (my_robot_message) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.048847] (my_robot_message) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.049005] (my_robot_message) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099425] (-) TimerEvent: {}
+[0.193444] (my_robot_message) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.199532] (-) TimerEvent: {}
+[0.216455] (my_robot_message) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.218539] (my_robot_message) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.299703] (-) TimerEvent: {}
+[0.307524] (my_robot_message) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.340669] (my_robot_message) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.341624] (my_robot_message) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.399789] (-) TimerEvent: {}
+[0.435840] (my_robot_message) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.457496] (my_robot_message) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.479360] (my_robot_message) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.499894] (-) TimerEvent: {}
+[0.594837] (my_robot_message) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.599960] (-) TimerEvent: {}
+[0.700212] (-) TimerEvent: {}
+[0.756977] (my_robot_message) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.800358] (-) TimerEvent: {}
+[0.826386] (my_robot_message) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.845192] (my_robot_message) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[0.845377] (my_robot_message) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[0.862898] (my_robot_message) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.863057] (my_robot_message) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[0.863114] (my_robot_message) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[0.900492] (-) TimerEvent: {}
+[0.901702] (my_robot_message) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.933924] (my_robot_message) StdoutLine: {'line': b'-- Generating done\n'}
+[0.936077] (my_robot_message) StdoutLine: {'line': b'-- Build files have been written to: /home/magnum/ros2_msg/build/my_robot_message\n'}
+[0.954724] (my_robot_message) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.962696] (my_robot_message) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.000585] (-) TimerEvent: {}
+[1.100900] (-) TimerEvent: {}
+[1.119812] (my_robot_message) StdoutLine: {'line': b'[  6%] Built target my_robot_message__cpp\n'}
+[1.120112] (my_robot_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_message__rosidl_generator_c\x1b[0m\n'}
+[1.127618] (my_robot_message) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.127867] (my_robot_message) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.129290] (my_robot_message) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.130611] (my_robot_message) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/my_robot_message__rosidl_generator_c.dir/rosidl_generator_c/my_robot_message/msg/detail/coordinates__functions.c.o\x1b[0m\n'}
+[1.166617] (my_robot_message) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libmy_robot_message__rosidl_generator_c.so\x1b[0m\n'}
+[1.193433] (my_robot_message) StdoutLine: {'line': b'[ 22%] Built target my_robot_message__rosidl_generator_c\n'}
+[1.200994] (-) TimerEvent: {}
+[1.202393] (my_robot_message) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.204192] (my_robot_message) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.278518] (my_robot_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_message__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.291207] (my_robot_message) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_message__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_message/msg/coordinates__type_support.cpp.o\x1b[0m\n'}
+[1.293949] (my_robot_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_message__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.301103] (-) TimerEvent: {}
+[1.305105] (my_robot_message) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_message__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_message/msg/detail/coordinates__type_support.cpp.o\x1b[0m\n'}
+[1.306128] (my_robot_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_message__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.319306] (my_robot_message) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_message__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_message/msg/detail/dds_fastrtps/coordinates__type_support.cpp.o\x1b[0m\n'}
+[1.401236] (-) TimerEvent: {}
+[1.457007] (my_robot_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_message__rosidl_typesupport_c\x1b[0m\n'}
+[1.472270] (my_robot_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_message__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.472575] (my_robot_message) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_message__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_message/msg/coordinates__type_support.cpp.o\x1b[0m\n'}
+[1.484259] (my_robot_message) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/my_robot_message__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_message/msg/detail/coordinates__type_support.c.o\x1b[0m\n'}
+[1.501348] (-) TimerEvent: {}
+[1.503894] (my_robot_message) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_message__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.512565] (my_robot_message) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libmy_robot_message__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.523419] (my_robot_message) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_message__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.539756] (my_robot_message) StdoutLine: {'line': b'[ 54%] Built target my_robot_message__rosidl_typesupport_c\n'}
+[1.542247] (my_robot_message) StdoutLine: {'line': b'[ 54%] Built target my_robot_message__rosidl_typesupport_introspection_c\n'}
+[1.590239] (my_robot_message) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_message__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.590475] (my_robot_message) StdoutLine: {'line': b'[ 58%] Built target my_robot_message__rosidl_typesupport_introspection_cpp\n'}
+[1.601460] (-) TimerEvent: {}
+[1.620484] (my_robot_message) StdoutLine: {'line': b'[ 58%] Built target my_robot_message__rosidl_typesupport_cpp\n'}
+[1.701562] (-) TimerEvent: {}
+[1.701841] (my_robot_message) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_message__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.762826] (my_robot_message) StdoutLine: {'line': b'[ 61%] Built target my_robot_message__rosidl_typesupport_fastrtps_cpp\n'}
+[1.770627] (my_robot_message) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.801715] (-) TimerEvent: {}
+[1.901971] (-) TimerEvent: {}
+[1.918338] (my_robot_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_message__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.927852] (my_robot_message) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_message__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_message/msg/detail/coordinates__type_support_c.cpp.o\x1b[0m\n'}
+[2.002083] (-) TimerEvent: {}
+[2.102353] (-) TimerEvent: {}
+[2.151957] (my_robot_message) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_message__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.202465] (-) TimerEvent: {}
+[2.212651] (my_robot_message) StdoutLine: {'line': b'[ 70%] Built target my_robot_message__rosidl_typesupport_fastrtps_c\n'}
+[2.226495] (my_robot_message) StdoutLine: {'line': b'[ 70%] Built target my_robot_message\n'}
+[2.241655] (my_robot_message) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.302572] (-) TimerEvent: {}
+[2.402929] (-) TimerEvent: {}
+[2.493600] (my_robot_message) StdoutLine: {'line': b'[ 74%] Built target my_robot_message__py\n'}
+[2.501271] (my_robot_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_message__python\x1b[0m\n'}
+[2.502985] (-) TimerEvent: {}
+[2.511613] (my_robot_message) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/my_robot_message__python.dir/rosidl_generator_py/my_robot_message/msg/_coordinates_s.c.o\x1b[0m\n'}
+[2.572768] (my_robot_message) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_robot_message/libmy_robot_message__python.so\x1b[0m\n'}
+[2.603095] (-) TimerEvent: {}
+[2.604694] (my_robot_message) StdoutLine: {'line': b'[ 80%] Built target my_robot_message__python\n'}
+[2.613183] (my_robot_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_message__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[2.613408] (my_robot_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_message__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[2.613499] (my_robot_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_message__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[2.625519] (my_robot_message) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/my_robot_message__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_robot_message/_my_robot_message_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.625764] (my_robot_message) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/my_robot_message__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_robot_message/_my_robot_message_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.626110] (my_robot_message) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/my_robot_message__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_robot_message/_my_robot_message_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.681736] (my_robot_message) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_robot_message/my_robot_message_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.681962] (my_robot_message) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_robot_message/my_robot_message_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.685280] (my_robot_message) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/my_robot_message/my_robot_message_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.703205] (-) TimerEvent: {}
+[2.709583] (my_robot_message) StdoutLine: {'line': b'[100%] Built target my_robot_message__rosidl_typesupport_c__pyext\n'}
+[2.709849] (my_robot_message) StdoutLine: {'line': b'[100%] Built target my_robot_message__rosidl_typesupport_introspection_c__pyext\n'}
+[2.734169] (my_robot_message) StdoutLine: {'line': b'[100%] Built target my_robot_message__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.742963] (my_robot_message) CommandEnded: {'returncode': 0}
+[2.779564] (my_robot_message) JobProgress: {'identifier': 'my_robot_message', 'progress': 'install'}
+[2.788606] (my_robot_message) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/magnum/ros2_msg/build/my_robot_message'], 'cwd': '/home/magnum/ros2_msg/build/my_robot_message', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'magnum'), ('SSH_AGENT_PID', '2534'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/magnum/ros2_msg/install/my_robot_message/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/magnum'), ('OLDPWD', '/home/magnum/ros2_msg/src'), ('DESKTOP_SESSION', 'ubuntu'), ('QT_STYLE_OVERRIDE', 'kvantum'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_IP', '192.168.1.84'), ('MANAGERPID', '2346'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/magnum/ros2_msg/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'magnum'), ('JOURNAL_STREAM', '8:58830'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'magnum'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/magnum/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/robostek:@/tmp/.ICE-unix/2572,unix/robostek:/tmp/.ICE-unix/2572'), ('INVOCATION_ID', '1f32834dccfb4a88ab8bd2b72a053f8d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5ff014c8_9bfd_490e_9106_e9ead06e6873'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.303'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/magnum/ros2_msg/install/my_robot_message:/home/magnum/ros2_msg/install/ros2_message:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://192.168.1.122:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/magnum/ros2_msg/build/my_robot_message'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages:/opt/ros/foxy/lib/python/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/magnum/ros2_msg/install/my_robot_message:/home/magnum/ros2_msg/install/ros2_message:/opt/ros/foxy')]), 'shell': False}
+[2.795126] (my_robot_message) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.795321] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/ament_index/resource_index/rosidl_interfaces/my_robot_message\n'}
+[2.795402] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message\n'}
+[2.795465] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg\n'}
+[2.795522] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/coordinates.h\n'}
+[2.795583] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail\n'}
+[2.795646] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__type_support.h\n'}
+[2.795702] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__struct.h\n'}
+[2.795748] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__functions.h\n'}
+[2.795790] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__functions.c\n'}
+[2.795847] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.795891] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/environment/library_path.sh\n'}
+[2.795933] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/environment/library_path.dsv\n'}
+[2.795974] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__rosidl_generator_c.so\n'}
+[2.796038] (my_robot_message) StdoutLine: {'line': b'-- Set runtime path of "/home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__rosidl_generator_c.so" to ""\n'}
+[2.796112] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message\n'}
+[2.796180] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg\n'}
+[2.796222] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.796264] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail\n'}
+[2.796306] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__rosidl_typesupport_fastrtps_c.h\n'}
+[2.796368] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__rosidl_typesupport_fastrtps_c.so\n'}
+[2.796548] (my_robot_message) StdoutLine: {'line': b'-- Set runtime path of "/home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[2.796627] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message\n'}
+[2.796692] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg\n'}
+[2.796752] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail\n'}
+[2.796795] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/dds_fastrtps\n'}
+[2.796860] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.796904] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.796947] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.797072] (my_robot_message) StdoutLine: {'line': b'-- Set runtime path of "/home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[2.797142] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message\n'}
+[2.797211] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg\n'}
+[2.797263] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.797321] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail\n'}
+[2.797364] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__type_support.c\n'}
+[2.797406] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__rosidl_typesupport_introspection_c.h\n'}
+[2.797468] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__rosidl_typesupport_introspection_c.so\n'}
+[2.797636] (my_robot_message) StdoutLine: {'line': b'-- Set runtime path of "/home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__rosidl_typesupport_introspection_c.so" to ""\n'}
+[2.797775] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__rosidl_typesupport_c.so\n'}
+[2.797958] (my_robot_message) StdoutLine: {'line': b'-- Set runtime path of "/home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__rosidl_typesupport_c.so" to ""\n'}
+[2.798033] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message\n'}
+[2.798090] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg\n'}
+[2.798149] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail\n'}
+[2.798210] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__traits.hpp\n'}
+[2.798269] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__builder.hpp\n'}
+[2.798326] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__struct.hpp\n'}
+[2.798400] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/coordinates.hpp\n'}
+[2.798459] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message\n'}
+[2.798502] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg\n'}
+[2.798543] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail\n'}
+[2.798585] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__type_support.cpp\n'}
+[2.798644] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.798690] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__rosidl_typesupport_introspection_cpp.so\n'}
+[2.798844] (my_robot_message) StdoutLine: {'line': b'-- Set runtime path of "/home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[2.798961] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__rosidl_typesupport_cpp.so\n'}
+[2.799148] (my_robot_message) StdoutLine: {'line': b'-- Set runtime path of "/home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__rosidl_typesupport_cpp.so" to ""\n'}
+[2.799210] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/environment/pythonpath.sh\n'}
+[2.799268] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/environment/pythonpath.dsv\n'}
+[2.799325] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages/my_robot_message/__init__.py\n'}
+[2.803267] (-) TimerEvent: {}
+[2.822112] (my_robot_message) StdoutLine: {'line': b"Compiling '/home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages/my_robot_message/__init__.py'...\n"}
+[2.825089] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages/my_robot_message/msg\n'}
+[2.825241] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages/my_robot_message/msg/_coordinates.py\n'}
+[2.825299] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages/my_robot_message/msg/__init__.py\n'}
+[2.825342] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages/my_robot_message/msg/_coordinates_s.c\n'}
+[2.825547] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages/my_robot_message/my_robot_message_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[2.825930] (my_robot_message) StdoutLine: {'line': b'-- Set runtime path of "/home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages/my_robot_message/my_robot_message_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[2.826213] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages/my_robot_message/my_robot_message_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[2.826557] (my_robot_message) StdoutLine: {'line': b'-- Set runtime path of "/home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages/my_robot_message/my_robot_message_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[2.826748] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages/my_robot_message/my_robot_message_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[2.827043] (my_robot_message) StdoutLine: {'line': b'-- Set runtime path of "/home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages/my_robot_message/my_robot_message_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[2.827160] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__python.so\n'}
+[2.827359] (my_robot_message) StdoutLine: {'line': b'-- Set runtime path of "/home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__python.so" to ""\n'}
+[2.827421] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/msg/Coordinates.idl\n'}
+[2.827511] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/msg/Coordinates.msg\n'}
+[2.827618] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/ament_index/resource_index/package_run_dependencies/my_robot_message\n'}
+[2.827685] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/ament_index/resource_index/parent_prefix_path/my_robot_message\n'}
+[2.827760] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/environment/ament_prefix_path.sh\n'}
+[2.827803] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/environment/ament_prefix_path.dsv\n'}
+[2.827868] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/environment/path.sh\n'}
+[2.827942] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/environment/path.dsv\n'}
+[2.828017] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/local_setup.bash\n'}
+[2.828094] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/local_setup.sh\n'}
+[2.828152] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/local_setup.zsh\n'}
+[2.828213] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/local_setup.dsv\n'}
+[2.828256] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/package.dsv\n'}
+[2.828315] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/ament_index/resource_index/packages/my_robot_message\n'}
+[2.828373] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_message__rosidl_generator_cExport.cmake\n'}
+[2.828436] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_message__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.828597] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_message__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.828660] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_message__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.828796] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_message__rosidl_typesupport_cExport.cmake\n'}
+[2.828858] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_message__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.828985] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_message__rosidl_generator_cppExport.cmake\n'}
+[2.829106] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_message__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.829169] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_message__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.829314] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_message__rosidl_typesupport_cppExport.cmake\n'}
+[2.829376] (my_robot_message) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_message__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.829484] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/rosidl_cmake-extras.cmake\n'}
+[2.829548] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.829611] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.829690] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.829800] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.829863] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.829946] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.830005] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_messageConfig.cmake\n'}
+[2.830055] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_messageConfig-version.cmake\n'}
+[2.830098] (my_robot_message) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/package.xml\n'}
+[2.831811] (my_robot_message) CommandEnded: {'returncode': 0}
+[2.891188] (my_robot_message) JobEnded: {'identifier': 'my_robot_message', 'rc': 0}
+[2.891884] (-) EventReactorShutdown: {}

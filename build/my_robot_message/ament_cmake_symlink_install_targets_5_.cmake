@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/magnum/ros2_msg/build/my_robot_message/rosidl_generator_py/my_robot_message/libmy_robot_message__python.so" "TARGETS" "my_robot_message__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

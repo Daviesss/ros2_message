@@ -1,0 +1,42 @@
+CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/stamp.cmake:24 (configure_file):
+  configure_file input location
+
+    /home/magnum/ros2_msg/src/my_robot_message/msg
+
+  is a directory but a file was expected.
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:104 (stamp)
+  CMakeLists.txt:24 (rosidl_generate_interfaces)
+
+
+CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+  my_robot_message --arguments-file
+  /home/magnum/ros2_msg/build/my_robot_message/rosidl_adapter__arguments__my_robot_message.json
+  --output-dir
+  /home/magnum/ros2_msg/build/my_robot_message/rosidl_adapter/my_robot_message
+  --output-file
+  /home/magnum/ros2_msg/build/my_robot_message/rosidl_adapter/my_robot_message.idls)
+  returned error code 1:
+
+  Traceback (most recent call last):
+
+    File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+      return _run_code(code, main_globals, None,
+    File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+      exec(code, run_globals)
+    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+      sys.exit(main())
+    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+      abs_idl_file = convert_to_idl(
+    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 32, in convert_to_idl
+      assert False, f"Unsupported interface type '{interface_file.suffix}'"
+
+  AssertionError: Unsupported interface type ''
+
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+  CMakeLists.txt:24 (rosidl_generate_interfaces)
+
+
+make: *** [Makefile:222: cmake_check_build_system] Error 1

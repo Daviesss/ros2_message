@@ -1,0 +1,1 @@
+/home/magnum/ros2_msg/build/my_robot_message/rosidl_generator_c/my_robot_message/msg/rosidl_generator_c__visibility_control.h

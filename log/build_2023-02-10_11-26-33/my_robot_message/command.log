@@ -1,0 +1,4 @@
+Invoking command in '/home/magnum/ros2_msg/build/my_robot_message': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/magnum/ros2_msg/build/my_robot_message -- -j8 -l8
+Invoked command in '/home/magnum/ros2_msg/build/my_robot_message' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/magnum/ros2_msg/build/my_robot_message -- -j8 -l8
+Invoking command in '/home/magnum/ros2_msg/build/my_robot_message': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/magnum/ros2_msg/build/my_robot_message
+Invoked command in '/home/magnum/ros2_msg/build/my_robot_message' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/magnum/ros2_msg/build/my_robot_message

@@ -1,0 +1,54 @@
+[0.015s] Invoking command in '/home/magnum/ros2_msg/build/ros2_message': /usr/bin/cmake --build /home/magnum/ros2_msg/build/ros2_message -- -j8 -l8
+[0.038s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.056s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.211s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.235s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.238s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.337s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.371s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.372s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.483s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.493s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.535s] Error parsing '/home/magnum/ros2_msg/src/ros2_message/package.xml':
+[0.607s] Traceback (most recent call last):
+[0.607s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[0.607s]     root = dom.parseString(data)
+[0.607s]   File "/usr/lib/python3.8/xml/dom/minidom.py", line 1969, in parseString
+[0.607s]     return expatbuilder.parseString(string)
+[0.608s]   File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 925, in parseString
+[0.608s]     return builder.parseString(string)
+[0.608s]   File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 223, in parseString
+[0.608s]     parser.Parse(string, True)
+[0.608s] xml.parsers.expat.ExpatError: mismatched tag: line 29, column 2
+[0.608s] 
+[0.608s] During handling of the above exception, another exception occurred:
+[0.608s] 
+[0.608s] Traceback (most recent call last):
+[0.608s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+[0.608s]     main()
+[0.608s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+[0.608s]     raise e
+[0.608s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main
+[0.608s]     package = parse_package_string(
+[0.609s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[0.609s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[0.609s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/magnum/ros2_msg/src/ros2_message/package.xml':
+[0.609s] The manifest contains invalid XML:
+[0.609s] mismatched tag: line 29, column 2
+[0.621s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[0.621s]   execute_process(/usr/bin/python3
+[0.621s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.621s]   /home/magnum/ros2_msg/src/ros2_message/package.xml
+[0.621s]   /home/magnum/ros2_msg/build/ros2_message/ament_cmake_core/package.cmake)
+[0.621s]   returned error code 1
+[0.621s] Call Stack (most recent call first):
+[0.621s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.622s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.622s]   CMakeLists.txt:34 (ament_lint_auto_find_test_dependencies)
+[0.622s] 
+[0.622s] 
+[0.622s] -- Configuring incomplete, errors occurred!
+[0.622s] See also "/home/magnum/ros2_msg/build/ros2_message/CMakeFiles/CMakeOutput.log".
+[0.622s] See also "/home/magnum/ros2_msg/build/ros2_message/CMakeFiles/CMakeError.log".
+[0.629s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.631s] Invoked command in '/home/magnum/ros2_msg/build/ros2_message' returned '2': /usr/bin/cmake --build /home/magnum/ros2_msg/build/ros2_message -- -j8 -l8

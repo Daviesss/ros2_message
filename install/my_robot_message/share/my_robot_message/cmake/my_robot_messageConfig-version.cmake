@@ -1,0 +1,1 @@
+/home/magnum/ros2_msg/build/my_robot_message/ament_cmake_core/my_robot_messageConfig-version.cmake

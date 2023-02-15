@@ -1,0 +1,140 @@
+[0.015s] Invoking command in '/home/magnum/ros2_msg/build/message_creation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/magnum/ros2_msg/install/python:/opt/ros/foxy /usr/bin/cmake --build /home/magnum/ros2_msg/build/message_creation -- -j8 -l8
+[0.034s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.054s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.054s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.217s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.243s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.245s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.345s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.381s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.382s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.482s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.488s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.552s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.598s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.682s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.690s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.709s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[0.709s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[0.727s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.727s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[0.727s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.740s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.741s] -- Added test 'lint_cmake' to check CMake code style
+[0.742s] -- Added test 'xmllint' to check XML markup files
+[0.746s] -- Configuring done
+[0.769s] -- Generating done
+[0.772s] -- Build files have been written to: /home/magnum/ros2_msg/build/message_creation
+[0.800s] [  6%] Built target message_creation__cpp
+[0.800s] [ 12%] Built target message_creation__rosidl_generator_c
+[0.818s] [ 22%] Built target message_creation__rosidl_typesupport_introspection_c
+[0.822s] [ 41%] Built target message_creation__rosidl_typesupport_c
+[0.822s] [ 41%] Built target message_creation__rosidl_typesupport_cpp
+[0.822s] [ 51%] Built target message_creation__rosidl_typesupport_introspection_cpp
+[0.823s] [ 61%] Built target message_creation__rosidl_typesupport_fastrtps_cpp
+[0.844s] [ 70%] Built target message_creation__rosidl_typesupport_fastrtps_c
+[0.860s] [ 70%] Built target message_creation
+[0.874s] [ 74%] Built target message_creation__py
+[0.896s] [ 80%] Built target message_creation__python
+[0.917s] [ 87%] Built target message_creation__rosidl_typesupport_introspection_c__pyext
+[0.917s] [ 93%] Built target message_creation__rosidl_typesupport_c__pyext
+[0.917s] [100%] Built target message_creation__rosidl_typesupport_fastrtps_c__pyext
+[0.926s] Invoked command in '/home/magnum/ros2_msg/build/message_creation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/magnum/ros2_msg/install/python:/opt/ros/foxy /usr/bin/cmake --build /home/magnum/ros2_msg/build/message_creation -- -j8 -l8
+[0.964s] Invoking command in '/home/magnum/ros2_msg/build/message_creation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/magnum/ros2_msg/install/python:/opt/ros/foxy /usr/bin/cmake --install /home/magnum/ros2_msg/build/message_creation
+[0.971s] -- Install configuration: ""
+[0.971s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/share/ament_index/resource_index/rosidl_interfaces/message_creation
+[0.971s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation
+[0.971s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation/msg
+[0.971s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation/msg/detail
+[0.971s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation/msg/detail/creation__functions.c
+[0.971s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation/msg/detail/creation__functions.h
+[0.971s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation/msg/detail/creation__struct.h
+[0.971s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation/msg/detail/creation__type_support.h
+[0.971s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation/msg/creation.h
+[0.972s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation/msg/rosidl_generator_c__visibility_control.h
+[0.972s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/share/message_creation/environment/library_path.sh
+[0.972s] -- Installing: /home/magnum/ros2_msg/install/message_creation/share/message_creation/environment/library_path.dsv
+[0.972s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/lib/libmessage_creation__rosidl_generator_c.so
+[0.972s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation
+[0.972s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation/msg
+[0.972s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.972s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation/msg/detail
+[0.972s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation/msg/detail/creation__rosidl_typesupport_fastrtps_c.h
+[0.972s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/lib/libmessage_creation__rosidl_typesupport_fastrtps_c.so
+[0.972s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation
+[0.972s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation/msg
+[0.972s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation/msg/detail
+[0.972s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation/msg/detail/creation__rosidl_typesupport_fastrtps_cpp.hpp
+[0.972s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation/msg/detail/dds_fastrtps
+[0.972s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.973s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/lib/libmessage_creation__rosidl_typesupport_fastrtps_cpp.so
+[0.973s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation
+[0.973s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation/msg
+[0.973s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.973s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation/msg/detail
+[0.973s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation/msg/detail/creation__rosidl_typesupport_introspection_c.h
+[0.973s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation/msg/detail/creation__type_support.c
+[0.973s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/lib/libmessage_creation__rosidl_typesupport_introspection_c.so
+[0.973s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/lib/libmessage_creation__rosidl_typesupport_c.so
+[0.973s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation
+[0.973s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation/msg
+[0.973s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation/msg/creation.hpp
+[0.973s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation/msg/detail
+[0.973s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation/msg/detail/creation__builder.hpp
+[0.973s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation/msg/detail/creation__traits.hpp
+[0.973s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation/msg/detail/creation__struct.hpp
+[0.974s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation
+[0.974s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation/msg
+[0.974s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation/msg/detail
+[0.974s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation/msg/detail/creation__type_support.cpp
+[0.974s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/include/message_creation/msg/detail/creation__rosidl_typesupport_introspection_cpp.hpp
+[0.974s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/lib/libmessage_creation__rosidl_typesupport_introspection_cpp.so
+[0.974s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/lib/libmessage_creation__rosidl_typesupport_cpp.so
+[0.974s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/share/message_creation/environment/pythonpath.sh
+[0.974s] -- Installing: /home/magnum/ros2_msg/install/message_creation/share/message_creation/environment/pythonpath.dsv
+[0.974s] -- Installing: /home/magnum/ros2_msg/install/message_creation/lib/python3.8/site-packages/message_creation/__init__.py
+[0.997s] Compiling '/home/magnum/ros2_msg/install/message_creation/lib/python3.8/site-packages/message_creation/__init__.py'...
+[1.000s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/lib/python3.8/site-packages/message_creation/msg
+[1.000s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/lib/python3.8/site-packages/message_creation/msg/_creation.py
+[1.000s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/lib/python3.8/site-packages/message_creation/msg/__init__.py
+[1.000s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/lib/python3.8/site-packages/message_creation/msg/_creation_s.c
+[1.001s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/lib/python3.8/site-packages/message_creation/message_creation_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.001s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/lib/python3.8/site-packages/message_creation/message_creation_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.001s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/lib/python3.8/site-packages/message_creation/message_creation_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.002s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/lib/libmessage_creation__python.so
+[1.002s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/share/message_creation/msg/Creation.idl
+[1.002s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/share/message_creation/msg/Creation.msg
+[1.002s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/share/ament_index/resource_index/package_run_dependencies/message_creation
+[1.002s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/share/ament_index/resource_index/parent_prefix_path/message_creation
+[1.002s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/share/message_creation/environment/ament_prefix_path.sh
+[1.002s] -- Installing: /home/magnum/ros2_msg/install/message_creation/share/message_creation/environment/ament_prefix_path.dsv
+[1.002s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/share/message_creation/environment/path.sh
+[1.003s] -- Installing: /home/magnum/ros2_msg/install/message_creation/share/message_creation/environment/path.dsv
+[1.003s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/share/message_creation/local_setup.bash
+[1.003s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/share/message_creation/local_setup.sh
+[1.003s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/share/message_creation/local_setup.zsh
+[1.003s] -- Installing: /home/magnum/ros2_msg/install/message_creation/share/message_creation/local_setup.dsv
+[1.003s] -- Installing: /home/magnum/ros2_msg/install/message_creation/share/message_creation/package.dsv
+[1.003s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/share/ament_index/resource_index/packages/message_creation
+[1.003s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/share/message_creation/cmake/message_creation__rosidl_generator_cExport.cmake
+[1.003s] -- Installing: /home/magnum/ros2_msg/install/message_creation/share/message_creation/cmake/message_creation__rosidl_generator_cExport-noconfig.cmake
+[1.003s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/share/message_creation/cmake/message_creation__rosidl_typesupport_introspection_cExport.cmake
+[1.003s] -- Installing: /home/magnum/ros2_msg/install/message_creation/share/message_creation/cmake/message_creation__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.003s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/share/message_creation/cmake/message_creation__rosidl_typesupport_cExport.cmake
+[1.003s] -- Installing: /home/magnum/ros2_msg/install/message_creation/share/message_creation/cmake/message_creation__rosidl_typesupport_cExport-noconfig.cmake
+[1.003s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/share/message_creation/cmake/message_creation__rosidl_generator_cppExport.cmake
+[1.004s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/share/message_creation/cmake/message_creation__rosidl_typesupport_introspection_cppExport.cmake
+[1.004s] -- Installing: /home/magnum/ros2_msg/install/message_creation/share/message_creation/cmake/message_creation__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.004s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/share/message_creation/cmake/message_creation__rosidl_typesupport_cppExport.cmake
+[1.004s] -- Installing: /home/magnum/ros2_msg/install/message_creation/share/message_creation/cmake/message_creation__rosidl_typesupport_cppExport-noconfig.cmake
+[1.004s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/share/message_creation/cmake/rosidl_cmake-extras.cmake
+[1.004s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/share/message_creation/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.004s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/share/message_creation/cmake/ament_cmake_export_libraries-extras.cmake
+[1.004s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/share/message_creation/cmake/ament_cmake_export_targets-extras.cmake
+[1.004s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/share/message_creation/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.004s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/share/message_creation/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.004s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/share/message_creation/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.004s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/share/message_creation/cmake/message_creationConfig.cmake
+[1.004s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/share/message_creation/cmake/message_creationConfig-version.cmake
+[1.004s] -- Up-to-date: /home/magnum/ros2_msg/install/message_creation/share/message_creation/package.xml
+[1.008s] Invoked command in '/home/magnum/ros2_msg/build/message_creation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/magnum/ros2_msg/install/python:/opt/ros/foxy /usr/bin/cmake --install /home/magnum/ros2_msg/build/message_creation

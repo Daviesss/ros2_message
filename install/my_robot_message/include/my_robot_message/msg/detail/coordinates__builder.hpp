@@ -1,0 +1,1 @@
+/home/magnum/ros2_msg/build/my_robot_message/rosidl_generator_cpp/my_robot_message/msg/detail/coordinates__builder.hpp

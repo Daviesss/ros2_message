@@ -1,0 +1,1 @@
+/home/magnum/ros2_msg/build/message_creation/rosidl_typesupport_introspection_c/message_creation/msg/rosidl_typesupport_introspection_c__visibility_control.h

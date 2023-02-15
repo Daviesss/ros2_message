@@ -1,0 +1,61 @@
+[0.012s] Invoking command in '/home/magnum/ros2_msg/build/my_robot_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/magnum/ros2_msg/src/my_robot_message -DCMAKE_INSTALL_PREFIX=/home/magnum/ros2_msg/install/my_robot_message
+[0.054s] -- The C compiler identification is GNU 9.4.0
+[0.100s] -- The CXX compiler identification is GNU 9.4.0
+[0.103s] -- Check for working C compiler: /usr/bin/cc
+[0.151s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.152s] -- Detecting C compiler ABI info
+[0.198s] -- Detecting C compiler ABI info - done
+[0.210s] -- Detecting C compile features
+[0.211s] -- Detecting C compile features - done
+[0.212s] -- Check for working CXX compiler: /usr/bin/c++
+[0.269s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.270s] -- Detecting CXX compiler ABI info
+[0.326s] -- Detecting CXX compiler ABI info - done
+[0.334s] -- Detecting CXX compile features
+[0.335s] -- Detecting CXX compile features - done
+[0.337s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.354s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.354s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.511s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.546s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.550s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.627s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.653s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.710s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.749s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.749s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.750s] -- Looking for pthread.h
+[0.807s] -- Looking for pthread.h - found
+[0.807s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.858s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.858s] -- Looking for pthread_create in pthreads
+[0.898s] -- Looking for pthread_create in pthreads - not found
+[0.898s] -- Looking for pthread_create in pthread
+[0.948s] -- Looking for pthread_create in pthread - found
+[0.949s] -- Found Threads: TRUE  
+[1.051s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.110s] -- Configuring done
+[1.112s] -- Generating done
+[1.113s] -- Build files have been written to: /home/magnum/ros2_msg/build/my_robot_message
+[1.119s] Invoked command in '/home/magnum/ros2_msg/build/my_robot_message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/magnum/ros2_msg/src/my_robot_message -DCMAKE_INSTALL_PREFIX=/home/magnum/ros2_msg/install/my_robot_message
+[1.122s] Invoking command in '/home/magnum/ros2_msg/build/my_robot_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/magnum/ros2_msg/build/my_robot_message -- -j8 -l8
+[1.158s] Invoked command in '/home/magnum/ros2_msg/build/my_robot_message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/magnum/ros2_msg/build/my_robot_message -- -j8 -l8
+[1.197s] Invoking command in '/home/magnum/ros2_msg/build/my_robot_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/magnum/ros2_msg/build/my_robot_message
+[1.205s] -- Install configuration: ""
+[1.205s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/ament_index/resource_index/package_run_dependencies/my_robot_message
+[1.205s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/ament_index/resource_index/parent_prefix_path/my_robot_message
+[1.205s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/environment/ament_prefix_path.sh
+[1.205s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/environment/ament_prefix_path.dsv
+[1.206s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/environment/path.sh
+[1.206s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/environment/path.dsv
+[1.206s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/local_setup.bash
+[1.206s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/local_setup.sh
+[1.206s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/local_setup.zsh
+[1.206s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/local_setup.dsv
+[1.206s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/package.dsv
+[1.206s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/ament_index/resource_index/packages/my_robot_message
+[1.207s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.207s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_messageConfig.cmake
+[1.207s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_messageConfig-version.cmake
+[1.207s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/package.xml
+[1.209s] Invoked command in '/home/magnum/ros2_msg/build/my_robot_message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/magnum/ros2_msg/build/my_robot_message

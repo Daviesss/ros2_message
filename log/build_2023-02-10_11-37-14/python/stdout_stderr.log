@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/python/python.egg-info/PKG-INFO
+writing dependency_links to ../../build/python/python.egg-info/dependency_links.txt
+writing entry points to ../../build/python/python.egg-info/entry_points.txt
+writing requirements to ../../build/python/python.egg-info/requires.txt
+writing top-level names to ../../build/python/python.egg-info/top_level.txt
+reading manifest file '../../build/python/python.egg-info/SOURCES.txt'
+writing manifest file '../../build/python/python.egg-info/SOURCES.txt'
+running build
+running build_py
+copying python/code.py -> /home/magnum/ros2_msg/build/python/build/lib/python
+running install
+running install_lib
+copying /home/magnum/ros2_msg/build/python/build/lib/python/code.py -> /home/magnum/ros2_msg/install/python/lib/python3.8/site-packages/python
+byte-compiling /home/magnum/ros2_msg/install/python/lib/python3.8/site-packages/python/code.py to code.cpython-38.pyc
+running install_data
+copying package.xml -> /home/magnum/ros2_msg/install/python/share/python
+running install_egg_info
+removing '/home/magnum/ros2_msg/install/python/lib/python3.8/site-packages/python-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/python/python.egg-info to /home/magnum/ros2_msg/install/python/lib/python3.8/site-packages/python-0.0.0-py3.8.egg-info
+running install_scripts
+Installing velo script to /home/magnum/ros2_msg/install/python/lib/python
+writing list of installed files to '/home/magnum/ros2_msg/build/python/install.log'

@@ -1,0 +1,195 @@
+[0.013s] Invoking command in '/home/magnum/ros2_msg/build/my_robot_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/magnum/ros2_msg/build/my_robot_message -- -j8 -l8
+[0.030s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.046s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.046s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.189s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.216s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.219s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.309s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.341s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.342s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.445s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.469s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.491s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.604s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.774s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.845s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.864s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[0.865s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[0.887s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[0.888s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.888s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[0.888s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.906s] -- Found PythonExtra: .so  
+[0.966s] -- Configuring done
+[1.005s] -- Generating done
+[1.007s] -- Build files have been written to: /home/magnum/ros2_msg/build/my_robot_message
+[1.027s] [35m[1mScanning dependencies of target my_robot_message__cpp[0m
+[1.027s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.035s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.194s] [35m[1mScanning dependencies of target my_robot_message__rosidl_generator_c[0m
+[1.202s] [  6%] Built target my_robot_message__cpp
+[1.203s] [  9%] [32mBuilding C object CMakeFiles/my_robot_message__rosidl_generator_c.dir/rosidl_generator_c/my_robot_message/msg/detail/coordinates__functions.c.o[0m
+[1.210s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.210s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.210s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.239s] [ 22%] [32m[1mLinking C shared library libmy_robot_message__rosidl_generator_c.so[0m
+[1.271s] [ 22%] Built target my_robot_message__rosidl_generator_c
+[1.279s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.282s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.358s] [35m[1mScanning dependencies of target my_robot_message__rosidl_typesupport_cpp[0m
+[1.368s] [ 32%] [32mBuilding CXX object CMakeFiles/my_robot_message__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_message/msg/coordinates__type_support.cpp.o[0m
+[1.373s] [35m[1mScanning dependencies of target my_robot_message__rosidl_typesupport_introspection_cpp[0m
+[1.374s] [35m[1mScanning dependencies of target my_robot_message__rosidl_typesupport_fastrtps_cpp[0m
+[1.384s] [ 35%] [32mBuilding CXX object CMakeFiles/my_robot_message__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_message/msg/detail/coordinates__type_support.cpp.o[0m
+[1.385s] [ 38%] [32mBuilding CXX object CMakeFiles/my_robot_message__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_message/msg/detail/dds_fastrtps/coordinates__type_support.cpp.o[0m
+[1.523s] [35m[1mScanning dependencies of target my_robot_message__rosidl_typesupport_c[0m
+[1.540s] [ 41%] [32mBuilding CXX object CMakeFiles/my_robot_message__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_message/msg/coordinates__type_support.cpp.o[0m
+[1.551s] [35m[1mScanning dependencies of target my_robot_message__rosidl_typesupport_introspection_c[0m
+[1.565s] [ 45%] [32mBuilding C object CMakeFiles/my_robot_message__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_message/msg/detail/coordinates__type_support.c.o[0m
+[1.568s] [ 48%] [32m[1mLinking CXX shared library libmy_robot_message__rosidl_typesupport_c.so[0m
+[1.595s] [ 51%] [32m[1mLinking C shared library libmy_robot_message__rosidl_typesupport_introspection_c.so[0m
+[1.604s] [ 54%] [32m[1mLinking CXX shared library libmy_robot_message__rosidl_typesupport_introspection_cpp.so[0m
+[1.609s] [ 54%] Built target my_robot_message__rosidl_typesupport_c
+[1.623s] [ 54%] Built target my_robot_message__rosidl_typesupport_introspection_c
+[1.633s] [ 58%] [32m[1mLinking CXX shared library libmy_robot_message__rosidl_typesupport_cpp.so[0m
+[1.655s] [ 58%] Built target my_robot_message__rosidl_typesupport_introspection_cpp
+[1.664s] [ 58%] Built target my_robot_message__rosidl_typesupport_cpp
+[1.692s] [ 61%] [32m[1mLinking CXX shared library libmy_robot_message__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.757s] [ 61%] Built target my_robot_message__rosidl_typesupport_fastrtps_cpp
+[1.765s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.911s] [35m[1mScanning dependencies of target my_robot_message__rosidl_typesupport_fastrtps_c[0m
+[1.922s] [ 67%] [32mBuilding CXX object CMakeFiles/my_robot_message__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_message/msg/detail/coordinates__type_support_c.cpp.o[0m
+[2.145s] [ 70%] [32m[1mLinking CXX shared library libmy_robot_message__rosidl_typesupport_fastrtps_c.so[0m
+[2.204s] [ 70%] Built target my_robot_message__rosidl_typesupport_fastrtps_c
+[2.212s] [35m[1mScanning dependencies of target my_robot_message[0m
+[2.219s] [ 70%] Built target my_robot_message
+[2.226s] [35m[1mScanning dependencies of target my_robot_message__py[0m
+[2.234s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.522s] [ 74%] Built target my_robot_message__py
+[2.528s] [35m[1mScanning dependencies of target my_robot_message__python[0m
+[2.543s] [ 77%] [32mBuilding C object CMakeFiles/my_robot_message__python.dir/rosidl_generator_py/my_robot_message/msg/_coordinates_s.c.o[0m
+[2.601s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_message/libmy_robot_message__python.so[0m
+[2.632s] [ 80%] Built target my_robot_message__python
+[2.639s] [35m[1mScanning dependencies of target my_robot_message__rosidl_typesupport_c__pyext[0m
+[2.639s] [35m[1mScanning dependencies of target my_robot_message__rosidl_typesupport_introspection_c__pyext[0m
+[2.639s] [35m[1mScanning dependencies of target my_robot_message__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.654s] [ 83%] [32mBuilding C object CMakeFiles/my_robot_message__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_robot_message/_my_robot_message_s.ep.rosidl_typesupport_c.c.o[0m
+[2.654s] [ 87%] [32mBuilding C object CMakeFiles/my_robot_message__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_robot_message/_my_robot_message_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.655s] [ 90%] [32mBuilding C object CMakeFiles/my_robot_message__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_robot_message/_my_robot_message_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.709s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_message/my_robot_message_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.710s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/my_robot_message/my_robot_message_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.710s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_message/my_robot_message_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.736s] [100%] Built target my_robot_message__rosidl_typesupport_c__pyext
+[2.736s] [100%] Built target my_robot_message__rosidl_typesupport_introspection_c__pyext
+[2.758s] [100%] Built target my_robot_message__rosidl_typesupport_fastrtps_c__pyext
+[2.766s] Invoked command in '/home/magnum/ros2_msg/build/my_robot_message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/magnum/ros2_msg/build/my_robot_message -- -j8 -l8
+[2.807s] Invoking command in '/home/magnum/ros2_msg/build/my_robot_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/magnum/ros2_msg/build/my_robot_message
+[2.813s] -- Install configuration: ""
+[2.814s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/ament_index/resource_index/rosidl_interfaces/my_robot_message
+[2.814s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message
+[2.814s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg
+[2.814s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/coordinates.h
+[2.814s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail
+[2.814s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__type_support.h
+[2.814s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__struct.h
+[2.814s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__functions.h
+[2.814s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__functions.c
+[2.814s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/rosidl_generator_c__visibility_control.h
+[2.814s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/environment/library_path.sh
+[2.814s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/environment/library_path.dsv
+[2.814s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__rosidl_generator_c.so
+[2.815s] -- Set runtime path of "/home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__rosidl_generator_c.so" to ""
+[2.815s] -- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message
+[2.815s] -- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg
+[2.815s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.815s] -- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail
+[2.815s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__rosidl_typesupport_fastrtps_c.h
+[2.815s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__rosidl_typesupport_fastrtps_c.so
+[2.815s] -- Set runtime path of "/home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__rosidl_typesupport_fastrtps_c.so" to ""
+[2.816s] -- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message
+[2.816s] -- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg
+[2.816s] -- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail
+[2.816s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/dds_fastrtps
+[2.816s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__rosidl_typesupport_fastrtps_cpp.hpp
+[2.816s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.816s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__rosidl_typesupport_fastrtps_cpp.so
+[2.816s] -- Set runtime path of "/home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.816s] -- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message
+[2.816s] -- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg
+[2.816s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.816s] -- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail
+[2.816s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__type_support.c
+[2.816s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__rosidl_typesupport_introspection_c.h
+[2.816s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__rosidl_typesupport_introspection_c.so
+[2.816s] -- Set runtime path of "/home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__rosidl_typesupport_introspection_c.so" to ""
+[2.817s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__rosidl_typesupport_c.so
+[2.817s] -- Set runtime path of "/home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__rosidl_typesupport_c.so" to ""
+[2.817s] -- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message
+[2.817s] -- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg
+[2.817s] -- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail
+[2.817s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__traits.hpp
+[2.817s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__builder.hpp
+[2.817s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__struct.hpp
+[2.817s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/coordinates.hpp
+[2.817s] -- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message
+[2.817s] -- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg
+[2.817s] -- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail
+[2.817s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__type_support.cpp
+[2.817s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__rosidl_typesupport_introspection_cpp.hpp
+[2.817s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__rosidl_typesupport_introspection_cpp.so
+[2.817s] -- Set runtime path of "/home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__rosidl_typesupport_introspection_cpp.so" to ""
+[2.818s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__rosidl_typesupport_cpp.so
+[2.818s] -- Set runtime path of "/home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__rosidl_typesupport_cpp.so" to ""
+[2.818s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/environment/pythonpath.sh
+[2.818s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/environment/pythonpath.dsv
+[2.818s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages/my_robot_message/__init__.py
+[2.840s] Compiling '/home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages/my_robot_message/__init__.py'...
+[2.843s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages/my_robot_message/msg
+[2.843s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages/my_robot_message/msg/_coordinates.py
+[2.843s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages/my_robot_message/msg/__init__.py
+[2.843s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages/my_robot_message/msg/_coordinates_s.c
+[2.844s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages/my_robot_message/my_robot_message_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[2.844s] -- Set runtime path of "/home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages/my_robot_message/my_robot_message_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[2.844s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages/my_robot_message/my_robot_message_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[2.844s] -- Set runtime path of "/home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages/my_robot_message/my_robot_message_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[2.845s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages/my_robot_message/my_robot_message_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[2.845s] -- Set runtime path of "/home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages/my_robot_message/my_robot_message_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[2.845s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__python.so
+[2.845s] -- Set runtime path of "/home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__python.so" to ""
+[2.845s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/msg/Coordinates.idl
+[2.845s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/msg/Coordinates.msg
+[2.845s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/ament_index/resource_index/package_run_dependencies/my_robot_message
+[2.845s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/ament_index/resource_index/parent_prefix_path/my_robot_message
+[2.846s] -- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/environment/ament_prefix_path.sh
+[2.846s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/environment/ament_prefix_path.dsv
+[2.846s] -- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/environment/path.sh
+[2.846s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/environment/path.dsv
+[2.846s] -- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/local_setup.bash
+[2.846s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/local_setup.sh
+[2.846s] -- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/local_setup.zsh
+[2.846s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/local_setup.dsv
+[2.846s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/package.dsv
+[2.846s] -- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/ament_index/resource_index/packages/my_robot_message
+[2.846s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_message__rosidl_generator_cExport.cmake
+[2.846s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_message__rosidl_generator_cExport-noconfig.cmake
+[2.847s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_message__rosidl_typesupport_introspection_cExport.cmake
+[2.847s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_message__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.847s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_message__rosidl_typesupport_cExport.cmake
+[2.847s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_message__rosidl_typesupport_cExport-noconfig.cmake
+[2.847s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_message__rosidl_generator_cppExport.cmake
+[2.847s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_message__rosidl_typesupport_introspection_cppExport.cmake
+[2.847s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_message__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.847s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_message__rosidl_typesupport_cppExport.cmake
+[2.847s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_message__rosidl_typesupport_cppExport-noconfig.cmake
+[2.848s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/rosidl_cmake-extras.cmake
+[2.848s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.848s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/ament_cmake_export_libraries-extras.cmake
+[2.848s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/ament_cmake_export_targets-extras.cmake
+[2.848s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.848s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.848s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.848s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_messageConfig.cmake
+[2.848s] -- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_messageConfig-version.cmake
+[2.848s] -- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/package.xml
+[2.851s] Invoked command in '/home/magnum/ros2_msg/build/my_robot_message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/magnum/ros2_msg/build/my_robot_message

@@ -1,0 +1,7 @@
+CMake Error at /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:26 (message):
+  ament_lint_auto_find_test_dependencies() called with unused arguments:
+  ros2_message
+Call Stack (most recent call first):
+  CMakeLists.txt:34 (ament_lint_auto_find_test_dependencies)
+
+

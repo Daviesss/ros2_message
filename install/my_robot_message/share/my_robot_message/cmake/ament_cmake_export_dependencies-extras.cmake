@@ -1,0 +1,1 @@
+/home/magnum/ros2_msg/build/my_robot_message/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake

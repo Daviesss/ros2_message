@@ -1,0 +1,109 @@
+[  3%] Built target my_robot_message__cpp
+[ 12%] Built target my_robot_message__rosidl_generator_c
+[ 22%] Built target my_robot_message__rosidl_typesupport_c
+[ 32%] Built target my_robot_message__rosidl_typesupport_introspection_c
+[ 41%] Built target my_robot_message__rosidl_typesupport_cpp
+[ 51%] Built target my_robot_message__rosidl_typesupport_introspection_cpp
+[ 61%] Built target my_robot_message__rosidl_typesupport_fastrtps_cpp
+[ 70%] Built target my_robot_message__rosidl_typesupport_fastrtps_c
+[ 70%] Built target my_robot_message
+[ 74%] Built target my_robot_message__py
+[ 80%] Built target my_robot_message__python
+[ 87%] Built target my_robot_message__rosidl_typesupport_introspection_c__pyext
+[ 93%] Built target my_robot_message__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target my_robot_message__rosidl_typesupport_c__pyext
+-- Install configuration: ""
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/ament_index/resource_index/rosidl_interfaces/my_robot_message
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/coordinates.h
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__type_support.h
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__struct.h
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__functions.h
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__functions.c
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/environment/library_path.sh
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/environment/library_path.dsv
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__rosidl_generator_c.so
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/dds_fastrtps
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__type_support.c
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__rosidl_typesupport_c.so
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__traits.hpp
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__builder.hpp
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__struct.hpp
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/coordinates.hpp
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__type_support.cpp
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/include/my_robot_message/msg/detail/coordinates__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__rosidl_typesupport_cpp.so
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/environment/pythonpath.sh
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/environment/pythonpath.dsv
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages/my_robot_message/__init__.py
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages/my_robot_message/msg
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages/my_robot_message/msg/_coordinates.py
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages/my_robot_message/msg/__init__.py
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages/my_robot_message/msg/_coordinates_s.c
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages/my_robot_message/my_robot_message_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages/my_robot_message/my_robot_message_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages/my_robot_message/my_robot_message_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/lib/libmy_robot_message__python.so
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/msg/Coordinates.idl
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/msg/Coordinates.msg
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/ament_index/resource_index/package_run_dependencies/my_robot_message
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/ament_index/resource_index/parent_prefix_path/my_robot_message
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/environment/ament_prefix_path.sh
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/environment/path.sh
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/environment/path.dsv
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/local_setup.bash
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/local_setup.sh
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/local_setup.zsh
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/local_setup.dsv
+-- Installing: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/package.dsv
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/ament_index/resource_index/packages/my_robot_message
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_message__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_message__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_message__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_message__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_message__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_message__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_message__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_message__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_message__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_message__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_message__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_messageConfig.cmake
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/cmake/my_robot_messageConfig-version.cmake
+-- Up-to-date: /home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/package.xml

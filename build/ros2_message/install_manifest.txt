@@ -1,0 +1,15 @@
+/home/magnum/ros2_msg/install/ros2_message/share/ament_index/resource_index/package_run_dependencies/ros2_message
+/home/magnum/ros2_msg/install/ros2_message/share/ament_index/resource_index/parent_prefix_path/ros2_message
+/home/magnum/ros2_msg/install/ros2_message/share/ros2_message/environment/ament_prefix_path.sh
+/home/magnum/ros2_msg/install/ros2_message/share/ros2_message/environment/ament_prefix_path.dsv
+/home/magnum/ros2_msg/install/ros2_message/share/ros2_message/environment/path.sh
+/home/magnum/ros2_msg/install/ros2_message/share/ros2_message/environment/path.dsv
+/home/magnum/ros2_msg/install/ros2_message/share/ros2_message/local_setup.bash
+/home/magnum/ros2_msg/install/ros2_message/share/ros2_message/local_setup.sh
+/home/magnum/ros2_msg/install/ros2_message/share/ros2_message/local_setup.zsh
+/home/magnum/ros2_msg/install/ros2_message/share/ros2_message/local_setup.dsv
+/home/magnum/ros2_msg/install/ros2_message/share/ros2_message/package.dsv
+/home/magnum/ros2_msg/install/ros2_message/share/ament_index/resource_index/packages/ros2_message
+/home/magnum/ros2_msg/install/ros2_message/share/ros2_message/cmake/ros2_messageConfig.cmake
+/home/magnum/ros2_msg/install/ros2_message/share/ros2_message/cmake/ros2_messageConfig-version.cmake
+/home/magnum/ros2_msg/install/ros2_message/share/ros2_message/package.xml

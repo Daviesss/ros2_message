@@ -1,0 +1,21 @@
+[0.530s] Invoking command in '/home/magnum/ros2_msg/src/python': AMENT_PREFIX_PATH=/home/magnum/ros2_msg/install/my_robot_message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/magnum/ros2_msg/install/my_robot_message LD_LIBRARY_PATH=/home/magnum/ros2_msg/install/my_robot_message/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/magnum/ros2_msg/build/python/prefix_override:/home/magnum/ros2_msg/install/python/lib/python3.8/site-packages:/home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/python build --build-base /home/magnum/ros2_msg/build/python/build install --record /home/magnum/ros2_msg/build/python/install.log --install-scripts $base/lib/python --single-version-externally-managed
+[0.690s] running egg_info
+[0.690s] writing ../../build/python/python.egg-info/PKG-INFO
+[0.691s] writing dependency_links to ../../build/python/python.egg-info/dependency_links.txt
+[0.691s] writing entry points to ../../build/python/python.egg-info/entry_points.txt
+[0.691s] writing requirements to ../../build/python/python.egg-info/requires.txt
+[0.691s] writing top-level names to ../../build/python/python.egg-info/top_level.txt
+[0.721s] reading manifest file '../../build/python/python.egg-info/SOURCES.txt'
+[0.722s] writing manifest file '../../build/python/python.egg-info/SOURCES.txt'
+[0.722s] running build
+[0.722s] running build_py
+[0.722s] running install
+[0.723s] running install_lib
+[0.724s] running install_data
+[0.724s] running install_egg_info
+[0.725s] removing '/home/magnum/ros2_msg/install/python/lib/python3.8/site-packages/python-0.0.0-py3.8.egg-info' (and everything under it)
+[0.726s] Copying ../../build/python/python.egg-info to /home/magnum/ros2_msg/install/python/lib/python3.8/site-packages/python-0.0.0-py3.8.egg-info
+[0.726s] running install_scripts
+[0.738s] Installing velo script to /home/magnum/ros2_msg/install/python/lib/python
+[0.738s] writing list of installed files to '/home/magnum/ros2_msg/build/python/install.log'
+[0.754s] Invoked command in '/home/magnum/ros2_msg/src/python' returned '0': AMENT_PREFIX_PATH=/home/magnum/ros2_msg/install/my_robot_message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/magnum/ros2_msg/install/my_robot_message LD_LIBRARY_PATH=/home/magnum/ros2_msg/install/my_robot_message/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/magnum/ros2_msg/build/python/prefix_override:/home/magnum/ros2_msg/install/python/lib/python3.8/site-packages:/home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/python build --build-base /home/magnum/ros2_msg/build/python/build install --record /home/magnum/ros2_msg/build/python/install.log --install-scripts $base/lib/python --single-version-externally-managed

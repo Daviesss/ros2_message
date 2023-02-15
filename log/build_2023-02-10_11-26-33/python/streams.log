@@ -1,0 +1,33 @@
+[0.740s] Invoking command in '/home/magnum/ros2_msg/src/python': PYTHONPATH=/home/magnum/ros2_msg/build/python/prefix_override:/home/magnum/ros2_msg/install/python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/python build --build-base /home/magnum/ros2_msg/build/python/build install --record /home/magnum/ros2_msg/build/python/install.log --install-scripts $base/lib/python --single-version-externally-managed
+[0.950s] running egg_info
+[0.951s] creating ../../build/python/python.egg-info
+[0.951s] writing ../../build/python/python.egg-info/PKG-INFO
+[0.951s] writing dependency_links to ../../build/python/python.egg-info/dependency_links.txt
+[0.951s] writing entry points to ../../build/python/python.egg-info/entry_points.txt
+[0.951s] writing requirements to ../../build/python/python.egg-info/requires.txt
+[0.951s] writing top-level names to ../../build/python/python.egg-info/top_level.txt
+[0.961s] writing manifest file '../../build/python/python.egg-info/SOURCES.txt'
+[0.988s] reading manifest file '../../build/python/python.egg-info/SOURCES.txt'
+[0.988s] writing manifest file '../../build/python/python.egg-info/SOURCES.txt'
+[0.988s] running build
+[0.988s] running build_py
+[0.988s] creating /home/magnum/ros2_msg/build/python/build
+[0.989s] creating /home/magnum/ros2_msg/build/python/build/lib
+[0.989s] creating /home/magnum/ros2_msg/build/python/build/lib/python
+[0.989s] copying python/__init__.py -> /home/magnum/ros2_msg/build/python/build/lib/python
+[0.989s] running install
+[0.989s] running install_lib
+[0.990s] creating /home/magnum/ros2_msg/install/python/lib/python3.8/site-packages/python
+[0.990s] copying /home/magnum/ros2_msg/build/python/build/lib/python/__init__.py -> /home/magnum/ros2_msg/install/python/lib/python3.8/site-packages/python
+[0.990s] byte-compiling /home/magnum/ros2_msg/install/python/lib/python3.8/site-packages/python/__init__.py to __init__.cpython-38.pyc
+[0.991s] running install_data
+[0.992s] creating /home/magnum/ros2_msg/install/python/share/ament_index
+[0.992s] creating /home/magnum/ros2_msg/install/python/share/ament_index/resource_index
+[0.992s] creating /home/magnum/ros2_msg/install/python/share/ament_index/resource_index/packages
+[0.992s] copying resource/python -> /home/magnum/ros2_msg/install/python/share/ament_index/resource_index/packages
+[0.992s] copying package.xml -> /home/magnum/ros2_msg/install/python/share/python
+[0.992s] running install_egg_info
+[0.994s] Copying ../../build/python/python.egg-info to /home/magnum/ros2_msg/install/python/lib/python3.8/site-packages/python-0.0.0-py3.8.egg-info
+[0.994s] running install_scripts
+[1.008s] writing list of installed files to '/home/magnum/ros2_msg/build/python/install.log'
+[1.028s] Invoked command in '/home/magnum/ros2_msg/src/python' returned '0': PYTHONPATH=/home/magnum/ros2_msg/build/python/prefix_override:/home/magnum/ros2_msg/install/python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/python build --build-base /home/magnum/ros2_msg/build/python/build install --record /home/magnum/ros2_msg/build/python/install.log --install-scripts $base/lib/python --single-version-externally-managed

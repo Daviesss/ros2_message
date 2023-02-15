@@ -1,0 +1,1 @@
+/home/magnum/ros2_msg/build/message_creation/ament_cmake_core/message_creationConfig-version.cmake

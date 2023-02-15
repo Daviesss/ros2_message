@@ -1,0 +1,6 @@
+{
+  "package_name": "ros2_message",
+  "non_idl_tuples": [
+    "/home/magnum/ros2_msg/src/ros2_message:msg/MESS.msg"
+  ]
+}

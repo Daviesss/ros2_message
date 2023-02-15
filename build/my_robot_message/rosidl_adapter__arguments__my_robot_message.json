@@ -1,0 +1,6 @@
+{
+  "package_name": "my_robot_message",
+  "non_idl_tuples": [
+    "/home/magnum/ros2_msg/src/my_robot_message:msg/Coordinates.msg"
+  ]
+}

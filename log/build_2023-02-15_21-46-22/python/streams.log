@@ -1,0 +1,17 @@
+[0.528s] Invoking command in '/home/magnum/ros2_msg/build/python': CMAKE_PREFIX_PATH=/home/magnum/ros2_msg/install/my_robot_message:/home/magnum/ros2_msg/install/message_creation:/home/magnum/ros2_msg/install/ros2_message LD_LIBRARY_PATH=/home/magnum/ros2_msg/install/my_robot_message/lib:/home/magnum/ros2_msg/install/message_creation/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/magnum/ros2_msg/build/python/prefix_override:/home/magnum/ros2_msg/install/python/lib/python3.8/site-packages:/home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages:/home/magnum/ros2_msg/build/python:/home/magnum/ros2_msg/install/message_creation/lib/python3.8/site-packages:/home/magnum/ros2_msg/install/python/lib/python3.8/site-packages:/opt/ros/foxy/lib/python/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/magnum/ros2_msg/build/python/build --no-deps install_data
+[0.728s] running develop
+[0.839s] running egg_info
+[0.840s] writing python.egg-info/PKG-INFO
+[0.840s] writing dependency_links to python.egg-info/dependency_links.txt
+[0.840s] writing entry points to python.egg-info/entry_points.txt
+[0.840s] writing requirements to python.egg-info/requires.txt
+[0.840s] writing top-level names to python.egg-info/top_level.txt
+[0.863s] reading manifest file 'python.egg-info/SOURCES.txt'
+[0.864s] writing manifest file 'python.egg-info/SOURCES.txt'
+[0.886s] running build_ext
+[0.886s] Creating /home/magnum/ros2_msg/install/python/lib/python3.8/site-packages/python.egg-link (link to .)
+[0.887s] Installing velo script to /home/magnum/ros2_msg/install/python/lib/python
+[0.887s] 
+[0.887s] Installed /home/magnum/ros2_msg/build/python
+[0.887s] running install_data
+[0.908s] Invoked command in '/home/magnum/ros2_msg/build/python' returned '0': CMAKE_PREFIX_PATH=/home/magnum/ros2_msg/install/my_robot_message:/home/magnum/ros2_msg/install/message_creation:/home/magnum/ros2_msg/install/ros2_message LD_LIBRARY_PATH=/home/magnum/ros2_msg/install/my_robot_message/lib:/home/magnum/ros2_msg/install/message_creation/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/magnum/ros2_msg/build/python/prefix_override:/home/magnum/ros2_msg/install/python/lib/python3.8/site-packages:/home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages:/home/magnum/ros2_msg/build/python:/home/magnum/ros2_msg/install/message_creation/lib/python3.8/site-packages:/home/magnum/ros2_msg/install/python/lib/python3.8/site-packages:/opt/ros/foxy/lib/python/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/magnum/ros2_msg/build/python/build --no-deps install_data

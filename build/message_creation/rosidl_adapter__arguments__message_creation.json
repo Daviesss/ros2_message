@@ -1,0 +1,6 @@
+{
+  "package_name": "message_creation",
+  "non_idl_tuples": [
+    "/home/magnum/ros2_msg/src/message_creation:msg/Creation.msg"
+  ]
+}

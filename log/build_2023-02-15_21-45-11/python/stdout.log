@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing python.egg-info/PKG-INFO
+writing dependency_links to python.egg-info/dependency_links.txt
+writing entry points to python.egg-info/entry_points.txt
+writing requirements to python.egg-info/requires.txt
+writing top-level names to python.egg-info/top_level.txt
+reading manifest file 'python.egg-info/SOURCES.txt'
+writing manifest file 'python.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/magnum/ros2_msg/install/python/lib/python3.8/site-packages/site.py
+Creating /home/magnum/ros2_msg/install/python/lib/python3.8/site-packages/python.egg-link (link to .)
+Installing velo script to /home/magnum/ros2_msg/install/python/lib/python
+
+Installed /home/magnum/ros2_msg/build/python
+running install_data

@@ -1,0 +1,1 @@
+/home/magnum/ros2_msg/build/my_robot_message/ament_cmake_environment_hooks/local_setup.sh

@@ -1,0 +1,289 @@
+[0.103s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.104s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fd960d35c70>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fd960d35c70>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fd960d40220>)
+[0.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.119s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/magnum/ros2_msg'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_creation) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_creation) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_creation) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_creation) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_creation) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_creation) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_creation) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_creation) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_creation) by extension 'ros'
+[0.138s] DEBUG:colcon.colcon_core.package_identification:Package 'src/message_creation' with type 'ros.ament_cmake' and name 'message_creation'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_message) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_message) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_message) by extension 'ignore_ament_install'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_message) by extensions ['colcon_pkg']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_message) by extension 'colcon_pkg'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_message) by extensions ['colcon_meta']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_message) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_message) by extensions ['ros']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_message) by extension 'ros'
+[0.139s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_message' with type 'ros.ament_cmake' and name 'my_robot_message'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/python) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/python) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/python) by extension 'ignore_ament_install'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/python) by extensions ['colcon_pkg']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/python) by extension 'colcon_pkg'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/python) by extensions ['colcon_meta']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/python) by extension 'colcon_meta'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/python) by extensions ['ros']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/python) by extension 'ros'
+[0.140s] DEBUG:colcon.colcon_core.package_identification:Package 'src/python' with type 'ros.ament_python' and name 'python'
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.155s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/magnum/ros2_msg/install
+[0.156s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 386 installed packages in /opt/ros/foxy
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.211s] Level 5:colcon.colcon_core.verb:set package 'message_creation' build argument 'cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'message_creation' build argument 'cmake_target' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'message_creation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'message_creation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'message_creation' build argument 'cmake_clean_first' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'message_creation' build argument 'cmake_force_configure' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'message_creation' build argument 'ament_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'message_creation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'message_creation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.215s] DEBUG:colcon.colcon_core.verb:Building package 'message_creation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/magnum/ros2_msg/build/message_creation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/magnum/ros2_msg/install/message_creation', 'merge_install': False, 'path': '/home/magnum/ros2_msg/src/message_creation', 'symlink_install': False, 'test_result_base': None}
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'my_robot_message' build argument 'cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'my_robot_message' build argument 'cmake_target' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'my_robot_message' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'my_robot_message' build argument 'cmake_clean_cache' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'my_robot_message' build argument 'cmake_clean_first' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'my_robot_message' build argument 'cmake_force_configure' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'my_robot_message' build argument 'ament_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'my_robot_message' build argument 'catkin_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'my_robot_message' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.216s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_message' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/magnum/ros2_msg/build/my_robot_message', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/magnum/ros2_msg/install/my_robot_message', 'merge_install': False, 'path': '/home/magnum/ros2_msg/src/my_robot_message', 'symlink_install': False, 'test_result_base': None}
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'python' build argument 'cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'python' build argument 'cmake_target' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'python' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'python' build argument 'cmake_clean_cache' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'python' build argument 'cmake_clean_first' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'python' build argument 'cmake_force_configure' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'python' build argument 'ament_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'python' build argument 'catkin_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'python' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.217s] DEBUG:colcon.colcon_core.verb:Building package 'python' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/magnum/ros2_msg/build/python', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/magnum/ros2_msg/install/python', 'merge_install': False, 'path': '/home/magnum/ros2_msg/src/python', 'symlink_install': False, 'test_result_base': None}
+[0.217s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.220s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.220s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/magnum/ros2_msg/src/my_robot_message' with build type 'ament_cmake'
+[0.220s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/magnum/ros2_msg/src/my_robot_message'
+[0.223s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.224s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.224s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.228s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/magnum/ros2_msg/src/message_creation' with build type 'ament_cmake'
+[0.229s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/magnum/ros2_msg/src/message_creation'
+[0.230s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.230s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/magnum/ros2_msg/build/my_robot_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/magnum/ros2_msg/install/python:/opt/ros/foxy /usr/bin/cmake --build /home/magnum/ros2_msg/build/my_robot_message -- -j8 -l8
+[0.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/magnum/ros2_msg/build/message_creation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/magnum/ros2_msg/install/python:/opt/ros/foxy /usr/bin/cmake /home/magnum/ros2_msg/src/message_creation -DCMAKE_INSTALL_PREFIX=/home/magnum/ros2_msg/install/message_creation
+[0.410s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/magnum/ros2_msg/build/my_robot_message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/magnum/ros2_msg/install/python:/opt/ros/foxy /usr/bin/cmake --build /home/magnum/ros2_msg/build/my_robot_message -- -j8 -l8
+[0.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/magnum/ros2_msg/build/my_robot_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/magnum/ros2_msg/install/python:/opt/ros/foxy /usr/bin/cmake --install /home/magnum/ros2_msg/build/my_robot_message
+[0.496s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_message)
+[0.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/magnum/ros2_msg/build/my_robot_message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/magnum/ros2_msg/install/python:/opt/ros/foxy /usr/bin/cmake --install /home/magnum/ros2_msg/build/my_robot_message
+[0.502s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_msg/install/my_robot_message' for CMake module files
+[0.503s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_msg/install/my_robot_message' for CMake config files
+[0.503s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_message', 'cmake_prefix_path')
+[0.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/hook/cmake_prefix_path.ps1'
+[0.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/hook/cmake_prefix_path.dsv'
+[0.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/hook/cmake_prefix_path.sh'
+[0.507s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_msg/install/my_robot_message/lib'
+[0.507s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_message', 'ld_library_path_lib')
+[0.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/hook/ld_library_path_lib.ps1'
+[0.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/hook/ld_library_path_lib.dsv'
+[0.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/hook/ld_library_path_lib.sh'
+[0.509s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_msg/install/my_robot_message/bin'
+[0.509s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_msg/install/my_robot_message/lib/pkgconfig/my_robot_message.pc'
+[0.509s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages'
+[0.509s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_message', 'pythonpath')
+[0.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/hook/pythonpath.ps1'
+[0.511s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/hook/pythonpath.dsv'
+[0.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/hook/pythonpath.sh'
+[0.512s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_msg/install/my_robot_message/bin'
+[0.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/package.ps1'
+[0.515s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/package.dsv'
+[0.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/package.sh'
+[0.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/package.bash'
+[0.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/package.zsh'
+[0.517s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/magnum/ros2_msg/install/my_robot_message/share/colcon-core/packages/my_robot_message)
+[0.554s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_message)
+[0.556s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_msg/install/my_robot_message' for CMake module files
+[0.556s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_msg/install/my_robot_message' for CMake config files
+[0.556s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_message', 'cmake_prefix_path')
+[0.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/hook/cmake_prefix_path.ps1'
+[0.558s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/hook/cmake_prefix_path.dsv'
+[0.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/hook/cmake_prefix_path.sh'
+[0.558s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_msg/install/my_robot_message/lib'
+[0.558s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_message', 'ld_library_path_lib')
+[0.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/hook/ld_library_path_lib.ps1'
+[0.560s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/hook/ld_library_path_lib.dsv'
+[0.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/hook/ld_library_path_lib.sh'
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_msg/install/my_robot_message/bin'
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_msg/install/my_robot_message/lib/pkgconfig/my_robot_message.pc'
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages'
+[0.560s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_message', 'pythonpath')
+[0.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/hook/pythonpath.ps1'
+[0.562s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/hook/pythonpath.dsv'
+[0.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/hook/pythonpath.sh'
+[0.562s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_msg/install/my_robot_message/bin'
+[0.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/package.ps1'
+[0.564s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/package.dsv'
+[0.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/package.sh'
+[0.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/package.bash'
+[0.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/ros2_msg/install/my_robot_message/share/my_robot_message/package.zsh'
+[0.565s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/magnum/ros2_msg/install/my_robot_message/share/colcon-core/packages/my_robot_message)
+[0.565s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/magnum/ros2_msg/src/python' with build type 'ament_python'
+[0.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('python', 'ament_prefix_path')
+[0.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/ros2_msg/install/python/share/python/hook/ament_prefix_path.ps1'
+[0.567s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/magnum/ros2_msg/install/python/share/python/hook/ament_prefix_path.dsv'
+[0.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/ros2_msg/install/python/share/python/hook/ament_prefix_path.sh'
+[0.568s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.568s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.757s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/magnum/ros2_msg/src/python'
+[0.758s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.758s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/magnum/ros2_msg/src/python': CMAKE_PREFIX_PATH=/home/magnum/ros2_msg/install/my_robot_message:/home/magnum/ros2_msg/install/ros2_message PYTHONPATH=/home/magnum/ros2_msg/build/python/prefix_override:/home/magnum/ros2_msg/install/python/lib/python3.8/site-packages:/home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages:/home/magnum/ros2_msg/install/python/lib/python3.8/site-packages:/opt/ros/foxy/lib/python/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/python build --build-base /home/magnum/ros2_msg/build/python/build install --record /home/magnum/ros2_msg/build/python/install.log --install-scripts $base/lib/python --single-version-externally-managed
+[1.092s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/magnum/ros2_msg/build/message_creation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/magnum/ros2_msg/install/python:/opt/ros/foxy /usr/bin/cmake /home/magnum/ros2_msg/src/message_creation -DCMAKE_INSTALL_PREFIX=/home/magnum/ros2_msg/install/message_creation
+[1.094s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/magnum/ros2_msg/build/message_creation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/magnum/ros2_msg/install/python:/opt/ros/foxy /usr/bin/cmake --build /home/magnum/ros2_msg/build/message_creation -- -j8 -l8
+[1.336s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_msg/install/python' for CMake module files
+[1.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/magnum/ros2_msg/src/python' returned '0': CMAKE_PREFIX_PATH=/home/magnum/ros2_msg/install/my_robot_message:/home/magnum/ros2_msg/install/ros2_message PYTHONPATH=/home/magnum/ros2_msg/build/python/prefix_override:/home/magnum/ros2_msg/install/python/lib/python3.8/site-packages:/home/magnum/ros2_msg/install/my_robot_message/lib/python3.8/site-packages:/home/magnum/ros2_msg/install/python/lib/python3.8/site-packages:/opt/ros/foxy/lib/python/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/python build --build-base /home/magnum/ros2_msg/build/python/build install --record /home/magnum/ros2_msg/build/python/install.log --install-scripts $base/lib/python --single-version-externally-managed
+[1.337s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_msg/install/python' for CMake config files
+[1.338s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_msg/install/python/lib'
+[1.338s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_msg/install/python/bin'
+[1.338s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_msg/install/python/lib/pkgconfig/python.pc'
+[1.338s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_msg/install/python/lib/python3.8/site-packages'
+[1.338s] Level 1:colcon.colcon_core.shell:create_environment_hook('python', 'pythonpath')
+[1.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/ros2_msg/install/python/share/python/hook/pythonpath.ps1'
+[1.341s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/magnum/ros2_msg/install/python/share/python/hook/pythonpath.dsv'
+[1.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/ros2_msg/install/python/share/python/hook/pythonpath.sh'
+[1.342s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_msg/install/python/bin'
+[1.342s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(python)
+[1.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/ros2_msg/install/python/share/python/package.ps1'
+[1.344s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/magnum/ros2_msg/install/python/share/python/package.dsv'
+[1.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/ros2_msg/install/python/share/python/package.sh'
+[1.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/ros2_msg/install/python/share/python/package.bash'
+[1.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/ros2_msg/install/python/share/python/package.zsh'
+[1.346s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/magnum/ros2_msg/install/python/share/colcon-core/packages/python)
+[2.837s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/magnum/ros2_msg/build/message_creation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/magnum/ros2_msg/install/python:/opt/ros/foxy /usr/bin/cmake --build /home/magnum/ros2_msg/build/message_creation -- -j8 -l8
+[2.874s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/magnum/ros2_msg/build/message_creation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/magnum/ros2_msg/install/python:/opt/ros/foxy /usr/bin/cmake --install /home/magnum/ros2_msg/build/message_creation
+[2.916s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(message_creation)
+[2.917s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_msg/install/message_creation' for CMake module files
+[2.918s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/magnum/ros2_msg/build/message_creation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/magnum/ros2_msg/install/python:/opt/ros/foxy /usr/bin/cmake --install /home/magnum/ros2_msg/build/message_creation
+[2.918s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_msg/install/message_creation' for CMake config files
+[2.918s] Level 1:colcon.colcon_core.shell:create_environment_hook('message_creation', 'cmake_prefix_path')
+[2.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/ros2_msg/install/message_creation/share/message_creation/hook/cmake_prefix_path.ps1'
+[2.920s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/magnum/ros2_msg/install/message_creation/share/message_creation/hook/cmake_prefix_path.dsv'
+[2.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/ros2_msg/install/message_creation/share/message_creation/hook/cmake_prefix_path.sh'
+[2.920s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_msg/install/message_creation/lib'
+[2.920s] Level 1:colcon.colcon_core.shell:create_environment_hook('message_creation', 'ld_library_path_lib')
+[2.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/ros2_msg/install/message_creation/share/message_creation/hook/ld_library_path_lib.ps1'
+[2.921s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/magnum/ros2_msg/install/message_creation/share/message_creation/hook/ld_library_path_lib.dsv'
+[2.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/ros2_msg/install/message_creation/share/message_creation/hook/ld_library_path_lib.sh'
+[2.922s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_msg/install/message_creation/bin'
+[2.922s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_msg/install/message_creation/lib/pkgconfig/message_creation.pc'
+[2.922s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_msg/install/message_creation/lib/python3.8/site-packages'
+[2.922s] Level 1:colcon.colcon_core.shell:create_environment_hook('message_creation', 'pythonpath')
+[2.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/ros2_msg/install/message_creation/share/message_creation/hook/pythonpath.ps1'
+[2.923s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/magnum/ros2_msg/install/message_creation/share/message_creation/hook/pythonpath.dsv'
+[2.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/ros2_msg/install/message_creation/share/message_creation/hook/pythonpath.sh'
+[2.924s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_msg/install/message_creation/bin'
+[2.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/ros2_msg/install/message_creation/share/message_creation/package.ps1'
+[2.925s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/magnum/ros2_msg/install/message_creation/share/message_creation/package.dsv'
+[2.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/ros2_msg/install/message_creation/share/message_creation/package.sh'
+[2.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/ros2_msg/install/message_creation/share/message_creation/package.bash'
+[2.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/ros2_msg/install/message_creation/share/message_creation/package.zsh'
+[2.926s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/magnum/ros2_msg/install/message_creation/share/colcon-core/packages/message_creation)
+[2.962s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(message_creation)
+[2.963s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_msg/install/message_creation' for CMake module files
+[2.964s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_msg/install/message_creation' for CMake config files
+[2.964s] Level 1:colcon.colcon_core.shell:create_environment_hook('message_creation', 'cmake_prefix_path')
+[2.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/ros2_msg/install/message_creation/share/message_creation/hook/cmake_prefix_path.ps1'
+[2.965s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/magnum/ros2_msg/install/message_creation/share/message_creation/hook/cmake_prefix_path.dsv'
+[2.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/ros2_msg/install/message_creation/share/message_creation/hook/cmake_prefix_path.sh'
+[2.966s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_msg/install/message_creation/lib'
+[2.966s] Level 1:colcon.colcon_core.shell:create_environment_hook('message_creation', 'ld_library_path_lib')
+[2.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/ros2_msg/install/message_creation/share/message_creation/hook/ld_library_path_lib.ps1'
+[2.967s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/magnum/ros2_msg/install/message_creation/share/message_creation/hook/ld_library_path_lib.dsv'
+[2.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/ros2_msg/install/message_creation/share/message_creation/hook/ld_library_path_lib.sh'
+[2.968s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_msg/install/message_creation/bin'
+[2.968s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_msg/install/message_creation/lib/pkgconfig/message_creation.pc'
+[2.968s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_msg/install/message_creation/lib/python3.8/site-packages'
+[2.968s] Level 1:colcon.colcon_core.shell:create_environment_hook('message_creation', 'pythonpath')
+[2.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/ros2_msg/install/message_creation/share/message_creation/hook/pythonpath.ps1'
+[2.970s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/magnum/ros2_msg/install/message_creation/share/message_creation/hook/pythonpath.dsv'
+[2.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/ros2_msg/install/message_creation/share/message_creation/hook/pythonpath.sh'
+[2.970s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_msg/install/message_creation/bin'
+[2.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/ros2_msg/install/message_creation/share/message_creation/package.ps1'
+[2.972s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/magnum/ros2_msg/install/message_creation/share/message_creation/package.dsv'
+[2.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/ros2_msg/install/message_creation/share/message_creation/package.sh'
+[2.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/ros2_msg/install/message_creation/share/message_creation/package.bash'
+[2.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/ros2_msg/install/message_creation/share/message_creation/package.zsh'
+[2.973s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/magnum/ros2_msg/install/message_creation/share/colcon-core/packages/message_creation)
+[2.973s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.974s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.974s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.974s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.979s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.979s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.979s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.991s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.992s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/magnum/ros2_msg/install/local_setup.ps1'
+[2.993s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/magnum/ros2_msg/install/_local_setup_util_ps1.py'
+[2.994s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/magnum/ros2_msg/install/setup.ps1'
+[2.995s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/magnum/ros2_msg/install/local_setup.sh'
+[2.996s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/magnum/ros2_msg/install/_local_setup_util_sh.py'
+[2.996s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/magnum/ros2_msg/install/setup.sh'
+[2.997s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/magnum/ros2_msg/install/local_setup.bash'
+[2.997s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/magnum/ros2_msg/install/setup.bash'
+[2.998s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/magnum/ros2_msg/install/local_setup.zsh'
+[2.998s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/magnum/ros2_msg/install/setup.zsh'
