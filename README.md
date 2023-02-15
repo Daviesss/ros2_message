@@ -5,7 +5,7 @@ Create a package in the src folder/directory:
 ```
  ros2 pkg create message_creation --build-type ament_cmake --dependecies rclcpp std_msgs
  ```
-In the newly created folder/package,we are going to create a directory called msg.Once we are done with that we will cd into the msg directory/folder and use the command below to create a file called "Creation.msg"
+In the newly created folder/package,we will create a directory called msg.Once we are done with that we will cd into the msg directory/folder and use the command below to create a file called "Creation.msg"
 ```
  touch Creation.msg
 ```
