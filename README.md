@@ -24,3 +24,4 @@ if(BUILD_TESTING)
 endif()
 ```
 The function above includes all the messages of package to be compiled,this also should be added into the "CMakeLists.txt" file.
+We also need to do some modification in the package.xml file.Add the following below to your package.xml file.
