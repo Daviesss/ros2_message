@@ -9,3 +9,9 @@ In the newly created folder/package,we are going to create a directory called ms
 ```
  touch Creation.msg
 ```
+In the Creation.msg file add the following below:
+```
+ int32 day
+ string month
+ int32 year
+```
