@@ -17,9 +17,10 @@ In the Creation.msg file add the following below:
 ```
 befor we compile our workspace we have to modeify our CMakeLists.txt and package.xml file.In the CMakeLists.txt add the following below:
 ```
- find_package(rosidl_default_generators REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   ament_lint_auto_find_test_dependencies()
 endif()
 ```
+The function above includes all the messages of package to be compiled,this also should be added into the "CMakeLists.txt" file.
