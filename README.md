@@ -15,7 +15,7 @@ In the Creation.msg file add the following below:
  string month
  int32 year
 ```
-befor we compile our workspace we have to modeify our CMakeLists.txt and package.xml file.In the CMakeLists.txt add the following below:
+before we compile our workspace we have to modify our CMakeLists.txt and package.xml file.In the CMakeLists.txt add the following below:
 ```
 find_package(rosidl_default_generators REQUIRED)
 if(BUILD_TESTING)
