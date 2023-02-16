@@ -32,7 +32,7 @@ We also need to do some modification in the package.xml file.Add the following b
 ```
 Then after we are done with all the above modification,we will build our workspace with the:
 ```
-colocon build or 
+colcon build or 
 colcon build --symlink-install
 ```
 Then we will the source the workspace:
