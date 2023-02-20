@@ -75,4 +75,8 @@ We check the topic,by typing the command below:
   ros2 topic list
 ```
 
+Also,we can echo the topic by:
+```
+  ros2 echo /toggle_led
+```
 
