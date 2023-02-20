@@ -51,3 +51,11 @@ We will see the topic called /display publsihed to the terminal.![interface](htt
 
 # TO LEARN MORE ABOUT ROS2 INTERFACES:
 https://github.com/ros2/common_interfaces
+
+# RUNNING THE ROS2 NODE THAT PUBLISH TO THE "/toggle_led" Topic.
+
+To run this node make sure you source the ros2 distro version, you got installed on your ubuntu machine.
+command:
+```
+  source /opt/ros/<ros2_distro>/setup.bash
+```
