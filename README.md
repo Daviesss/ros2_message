@@ -59,7 +59,20 @@ command:
 ```
   source /opt/ros/<ros2_distro>/setup.bash
 ```
+
 Once you have done this,go into your ros2 catkin_ws and soure the workspace typing the command below:
 ```
   source install/setup.bash
 ```
+
+Now,let's run the node to publsih to the L.E.D topic.
+```
+  ros2 run trigger trig
+```
+
+We check the topic,by typing the command below:
+```
+  ros2 topic list
+```
+
+
