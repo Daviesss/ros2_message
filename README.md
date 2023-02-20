@@ -59,3 +59,7 @@ command:
 ```
   source /opt/ros/<ros2_distro>/setup.bash
 ```
+Once you have done this,go into your ros2 catkin_ws and soure the workspace typing the command below:
+```
+  source install/setup.bash
+```
