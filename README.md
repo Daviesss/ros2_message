@@ -96,3 +96,7 @@ command:
   sudo apt-get install ros-<ros_distro>-rosserial-arduino
 ```
 
+To run the ros2 publisher node,type the command below.
+```
+   ros2 run trigger trig
+```
