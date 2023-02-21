@@ -100,3 +100,9 @@ To run the ros2 publisher node,type the command below.
 ```
    ros2 run trigger trig
 ```
+
+Type the below command to check the topic available:
+```
+  ros2 topic list
+```
+
