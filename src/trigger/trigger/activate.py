@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import rclpy #import the python rcl library.
+import rclpy #import the python rclpy library.
 from std_msgs.msg import Empty #import the std_msg package which has a type called Empty.
 from rclpy.node import Node
 
