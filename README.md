@@ -85,3 +85,14 @@ To make use of the arduino Node that subscribes to the "/led" topic. Navigate in
 ```
  cd src
 ```
+
+NOTE:
+ We need to install the rossrial libabry so we can be able to use the .ino Node.
+ 
+Once the Node is uploaded into the Arduino Micro-controller,we will need to use the rosserial arduino to bridge the topics over to ros. Install the rosserial package in ros.
+command:
+```
+  sudo apt-get install ros-<ros_distro>-rosserial
+  sudo apt-get install ros-<ros_distro>-rosserial-arduino
+```
+
