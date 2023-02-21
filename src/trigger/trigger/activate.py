@@ -9,7 +9,7 @@ class trigg(Node):
     def __init__(self):
         super().__init__('activate')
         self.light_up = Empty()
-        self.pub = self.create_publisher(Empty,"/toggle_led",10)
+        self.pub = self.create_publisher(Empty,"/led",10)
         
 
     #create a method that handles the node for turning on and of a L.E.D.
