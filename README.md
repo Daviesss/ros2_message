@@ -80,7 +80,7 @@ Also,we can echo the topic by:
   ros2 echo /toggle_led
 ```
 
-To make use of the arduino Node that subscribes to the "/led" topic. Navigate into src folder of the workspace and you will see the folder called toogle_led 
+To make use of the arduino Node that subscribes to the "/led" topic. Navigate into src folder of the workspace and you will see the folder called toogle_led.Copy the Node in the .ino file and paste into the arduino.
 
 ```
  cd src
